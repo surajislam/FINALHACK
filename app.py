@@ -11,7 +11,7 @@ import time
 from flask_cors import CORS
 from flask_wtf.csrf import CSRFProtect, validate_csrf
 from werkzeug.security import generate_password_hash, check_password_hash
-from admin_data import admin_db
+from admin_data import AdminDataManager
 from searched_usernames import searched_username_manager
 
 app = Flask(__name__)
